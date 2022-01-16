@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&family=The+Nautigal:wght@700&display=swap');
+body{
+    font-family: 'Shizuru', cursive;
+    font-family: 'The Nautigal', cursive;
+    text-align: center;
+    background-color: rgb(2, 164, 240);
+    color: white;
+    padding: 30px;
+    margin: 20px;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 40px;
+}
+img{
+    height: 450px;
+    border: 10px solid red;
+    border-radius: 30px;
+}
+img:hover{
+    border: 10px solid yellow;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    img{
+        width: 240px;
+        height: 200px;
+    }
+  }
